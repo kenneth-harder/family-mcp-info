@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Family MCP is a privately operated assistant for calendar and household tasks. Learn how its Google Calendar connection works and how it handles data.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Private tools for everyday planning | Family MCP</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="/family-mcp-info/">Family MCP</a><nav aria-label="Main navigation"><a href="/family-mcp-info/" aria-current="page">About</a><a href="/family-mcp-info/privacy/">Privacy</a><a href="/family-mcp-info/terms/">Terms</a></nav></header>
+<main id="main">
+<p class="eyebrow">Personal assistant · Public information</p>
+<h1>Private tools for<br>everyday planning.</h1>
+<p class="lead">Family MCP connects a private household assistant to selected services, so its users can manage everyday tasks through chat.</p>
+<div class="note"><strong>This is an information site.</strong> It does not provide access to the assistant, connect to your Google account, or display calendar or household records.</div>
+<div class="grid"><section><h2>Calendar, through conversation</h2><p>The Google Calendar connection can list calendars, find events in a date range, and preview and create events on calendars the connected user owns.</p><p>It supports timed events, all-day events and eligible Out of office events. Out of office events never automatically decline invitations. The current integration has no event editing or deletion tools.</p></section>
+<section><h2>Separate accounts, explicit actions</h2><p>Each Google account is connected separately. Users choose the account and calendar for an action, review the event details and authorize creation.</p><p>The assistant also supports private household records and shopping tasks through separate modules. Connecting Google Calendar does not connect those other services.</p></section></div>
+<h2>Why Google access is requested</h2>
+<p>Calendar-list access lets the assistant identify the correct calendar. Event access lets it find and create events on calendars you own. Google's permission groups creation with modification and deletion, even though Family MCP currently exposes only reading and creation.</p>
+<p>The Google Calendar connection does not request Gmail, Drive, contacts or calendar-sharing permissions.</p>
+<h2>Where information goes</h2>
+<p>The application runs on a privately managed Raspberry Pi. Account credentials and saved event previews are stored there, outside the public website and source releases. Calendar details returned by the tools pass through the configured ChatGPT connection so the assistant can respond to the user's request.</p>
+<p>Read the <a href="/family-mcp-info/privacy/">privacy policy</a> for the data accessed, storage, service providers, retention and deletion controls.</p>
+<h2>About this project</h2>
+<p>Family MCP is operated by Kenneth Harder for personal and invited household use. It is not a public registration service or a Google product. This website publishes information about the project; the assistant and its records remain private.</p>
+<p>For general technical questions, use the <a href="https://github.com/kenneth-harder/family-mcp-info/issues">public information repository</a>. Do not post calendar details, account credentials or other private information there. Invited users should contact the operator through their existing private contact channel for account or data requests.</p>
+</main>
+<footer><p>Family MCP · A personal project operated by Kenneth Harder.</p><a href="/family-mcp-info/privacy/">Privacy policy</a><a href="/family-mcp-info/terms/">Terms of use</a><a href="https://github.com/kenneth-harder/family-mcp-info">Public information repository</a></footer>
+</body></html>
